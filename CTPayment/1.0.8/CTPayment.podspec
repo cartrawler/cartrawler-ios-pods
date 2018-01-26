@@ -19,8 +19,8 @@ LICENSE
 
 s.author             = { "Cartrawler" => "" }
 s.platform     = :ios
-s.platform     = :ios, "8.0"
-s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-build.git", :tag => "v1.0.8-CTPayment" }
+s.platform     = :ios, "9.0"
+s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-payment.git", :tag => "1.0.8" }
 
 s.ios.vendored_frameworks = 'CTPayment.framework'
 
