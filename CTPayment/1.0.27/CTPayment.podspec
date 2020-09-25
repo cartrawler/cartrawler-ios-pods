@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
 
-s.name         = "CarTrawlerSDK"
-s.version      = "10.9.0"
-s.summary      = "Cartrawler iOS SDK"
+s.name         = "CTPayment"
+s.version      = "1.0.27"
+s.summary      = "The Cartrawler SDK"
 s.description  = <<-DESC
 A toolkit for car rental & ground transport
 DESC
@@ -20,11 +20,10 @@ LICENSE
 s.author             = { "Cartrawler" => "" }
 s.platform     = :ios
 s.platform     = :ios, "10.0"
-s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-sdk.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-payment.git", :tag => "1.0.27" }
 
-s.ios.vendored_frameworks = 'CarTrawlerSDK.framework'
+s.ios.vendored_frameworks = 'CTPayment.framework'
 
 s.requires_arc = true
-s.dependency 'CTPayment', '1.0.27'
 
 end
