@@ -24,7 +24,6 @@ s.source       = { :git => "https://github.com/cartrawler/cartrawler-ios-payment
 
 s.ios.vendored_frameworks = 'CTPayment.framework'
 
-
 s.requires_arc = true
 
 end
